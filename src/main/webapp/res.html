@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style type="text/css">
+body {
+	background-color: aqua;
+	text-align: center;
+}
+
+h1 {
+	font-family: Arial;
+}
+
+input[type="text"], input[type="password"] {
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: #45a049;
+}
+</style>
+
+</head>
+<body>
+	<div class="Container">
+		<h1>Welcome To Registration Form</h1>
+		<br> <br>
+		<form method="post" action="res">
+			User-ID <input type="text" name="USERID"> <br>
+			<br> First Name<input type="text" name="UFNAME"> <br>
+			<br> Last Name<input type="text" name="ULNAME"><br>
+			<br> EMail-Id <input type="text" name="UEMAIL"> <br>
+			<br> Phone NO <input type="text" name="UPHNNO"> <br>
+			<br> Password<input type="password" name="UPASSWORD"><br>
+			<input type="submit" value="Register"> 
+		</form>
+	</div>
+</body>
+</html>
